@@ -1,0 +1,128 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+#top {
+    /*id*/
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* center horizonatly*/
+    align-items: center;
+    /*center vertivally*/
+    height: 25vw;
+
+}
+
+#sec2 {
+    background-color: white;
+    display: block;
+    /* Block is fine here */
+    text-align: center;
+    margin: 20px auto;
+    /* Top and bottom margins of 20px, auto left/right */
+    padding: 20px;
+    /* Inner padding for content */
+    margin-bottom: 20px;
+    /* Additional bottom margin */
+    font-size: 70px;
+}
+
+#icon {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0px;
+
+
+
+
+
+}
+
+#resume {
+    display: flex;
+    /* Flexbox for alignment */
+    flex-direction: column;
+    text-align: center;
+    /* Center text */
+    justify-content: center;
+    /* Center contents within the flex container */
+    max-width: 80%;
+    /* Set max-width for responsiveness */
+    margin: 20px auto;
+    /* Center the container and provide vertical spacing */
+    background-color: wheat;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resume header {
+    font-size: 40px;
+
+}
+
+
+#education {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+
+    width: 100%;
+    background-color: darkslateblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+
+
+}
+
+#education header {
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 100px;
+
+}
+#education img{
+    display: flex;
+    height: 70%;
+    width: 60%;
+    border-radius: 20%;
+    margin-bottom: 50px;
+
+    
+}
+
+.icons {
+    /*class*/
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+
+
+    /* Reduced margin to bring icons closer */
+
+    padding: 0;
+    /* Remove padding if not needed */
+    border: 20px solid transparent;
+}
+
+.circularIMG {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+
+}
