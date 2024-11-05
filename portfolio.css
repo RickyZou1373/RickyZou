@@ -1,0 +1,162 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+#top {
+    /*id*/
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* center horizonatly*/
+    align-items: center;
+    /*center vertivally*/
+    height: 25vw;
+    margin-top: 20px;
+
+}
+
+#sec2 {
+    background-color: white;
+    display: block;
+    /* Block is fine here */
+    text-align: center;
+    margin: 20px auto;
+    /* Top and bottom margins of 20px, auto left/right */
+    padding: 20px;
+    /* Inner padding for content */
+    margin-bottom: 20px;
+    /* Additional bottom margin */
+    font-size: 70px;
+}
+
+#icon {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0px;
+
+
+
+
+
+}
+
+#resume {
+    display: flex;
+    /* Flexbox for alignment */
+    flex-direction: column;
+    text-align: center;
+    /* Center text */
+    justify-content: center;
+    /* Center contents within the flex container */
+    max-width: 80%;
+    /* Set max-width for responsiveness */
+    margin: 20px auto;
+    /* Center the container and provide vertical spacing */
+    background-color: wheat;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resume header {
+    font-size: 40px;
+
+}
+
+#education{
+    background-color:rgb(25, 15, 26);
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 10%;
+
+   
+
+}
+#educationp1 p{
+    color: white;
+}
+#educationp1 {
+    padding: 0px;
+
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    
+
+}
+#educationp2 {
+    color: white;
+    display: flex; /* Align items side-by-side */
+    align-items: flex-start; /* Top align items */
+    gap: 20px; /* Add spacing between the image and text */
+    padding: 20px;
+}
+
+#education header{
+    font-size: 40px;
+    margin-top: 20px;
+    color: white;
+}
+
+.achievement-item {
+    color: white; /* Match theme color */
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: 10px; /* Add space under "ACHIEVEMENTS:" */
+}
+
+
+#MCI {
+    width: 800px; /* Set image size */
+    height: auto;
+}
+.horizontal{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 40px;
+    margin-left: 50px;
+}
+.icons {
+    /*class*/
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+ 
+
+
+    /* Reduced margin to bring icons closer */
+
+    padding: 0;
+    /* Remove padding if not needed */
+    border: 20px solid transparent;
+}
+.title{
+    margin-left: 100px;
+    text-decoration: underline;
+}
+.description{
+    margin-left: 200px;
+}
+.circularIMG {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+
+}
